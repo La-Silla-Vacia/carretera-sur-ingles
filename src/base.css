@@ -12,7 +12,8 @@
   z-index: 1;
   max-width: 100%;
   width: 50em;
-  height: inherit;
+  height:450px;
+  overflow:scroll;
   margin: auto;
   top: 2em;
   left: 0;
@@ -44,7 +45,7 @@
     padding: 1em;
     top: 0;
     border-radius: 0;
-    height:600px;
+    height:580px;
     overflow:scroll;
 
     & h2 {
@@ -70,7 +71,7 @@
 
 .salir {
   float: right;
-  background: map(colors,primary,base);
+  background: map(colors,productos,conversaciones);
   color: white;
   border-radius: 2em;
   padding: 0.5em 1em;
@@ -82,8 +83,8 @@
 
 .salir:hover {
   background-color: white;
-  color: map(colors,primary,base);
-  border-color: map(colors,primary,base);
+  color: map(colors,productos,conversaciones);
+  border-color: map(colors,productos,conversaciones);
 }
 
 .vermas {
